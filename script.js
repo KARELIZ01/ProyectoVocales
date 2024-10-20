@@ -1,7 +1,3 @@
-function getSentence(sentence) {
-    return sentence;
-}
-
 function searchVocals(sentence) {
     const vocals = ['a', 'e', 'i', 'o', 'u'];
     return sentence.toLowerCase().split('').filter(char => vocals.includes(char));
